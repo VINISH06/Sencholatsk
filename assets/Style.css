@@ -114,9 +114,16 @@ a {
         width: 100%;
     }
 
+    #home {
+
+        margin-top: 40%;
+        margin-bottom: 0;
+
+    }
+
     h1,
     h2 {
-        fon-size: 14px;
+        font-size: 14px;
     }
 
     #order {
@@ -129,6 +136,9 @@ a {
         width: 100%;
     }
 
+    #Our_Staffs {
+        margin-bottom: 50%;
+    }
 
 
 
@@ -146,7 +156,7 @@ a {
     }
 
     #about {
-        margin-top: -50%;
+        margin-top: -130%;
     }
 
 
