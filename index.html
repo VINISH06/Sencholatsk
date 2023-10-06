@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+    <!-- StyleSheet -->
+    <link href="./assets/Style.css" type="text/css" rel="StyleSheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Jnujsl5+z0I5t9z5lFfG5U3L01KKz5XnK7j5o5pP5rt9f4" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1 class="display-4"><img src="./assets/img/5681007_54438.jpg" id="logo" alt="logo"></h1>
+                </a>
+                <a class="navbar-brand" href="#">
+                    <h1 class="display-4">Coffee Day</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto mb-2 ms-4 mb-lg-0">
+                        <a class="nav-item nav-link text-light " href="#home">Home </a>
+                        <a class="nav-item nav-link text-light " href="#about">About</a>
+                        <a class="nav-item nav-link text-light " href="#services">Service</a>
+                        <a class="nav-item nav-link text-light " href="#menu">Menu</a>
+                        <div class="dropdown">
+                            <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#Our_Staff's">Our Staff's</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        <a class="nav-item nav-link text-light " href="#">Contact</a>
+
+                        <button class="btn btn-danger nav-item ">
+                            <a href="#order">Place_Order</a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- landing page -->
+    <section id="home ">
+        <div class="container-fluid">
+            <div class="section">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/10578326_4477349.jpg" alt="Image 1">
+                            <div class="carousel-caption">
+                                <h3>Slide 1</h3>
+                                <p>Description for Slide 1</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/coffee-beans-with-props-making-coffee.jpg" alt="Image 2">
+                            <div class="carousel-caption">
+                                <h3>Slide 2</h3>
+                                <p>Description for Slide 2</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/fresh-coffee-steams-wooden-table-close-up-generative-ai.jpg"
+                                alt="Image 3">
+                            <div class="carousel-caption">
+                                <h3>Slide 3</h3>
+                                <p>Description for Slide 3</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about--------------------------------------------------------------------------------------------------------------------- -->
+
+    <section id="about">
+        <h1 class="text-center display-4">About</h1>
+        <div class="container-fluid" id="container-fluid">
+            <img src="./assets/img/fresh-coffee-steams-wooden-table-close-up-generative-ai.jpg" data-aos="fade-up"
+                data-aos-anchor-placement="top-center" class=" img-fluid col-sm-3" />
+            <div class="cnt1" data-aos="fade-up" data-aos-duration="1000">
+                <div>
+
+                    <p class="text-center p-lg-5 p-0 p-sm-8">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque labore quibusdam iste
+                        expedita reprehenderit cumque ipsam repellat ipsum! At rem minus est dolore nihil, nulla maiores
+                        voluptate fuga eligendi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nobis
+                        velit iste cumque reiciendis deleniti blanditiis suscipit, molestiae soluta ea libero porro
+                        voluptates, assumenda omnis nam odio sapiente consectetur non. Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Cum minus, quia impedit a ipsam culpa voluptas? Doloribus placeat
+                        quam labore sequi et, rerum dolor. Autem exercitationem dolorem nihil in ducimus!
+
+                    </p>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- services----------------------------------------------------------------------- -->
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 md-3 mb-4">
+                    <div class="card " style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/mug-saucer-solid.svg " width="75px" height="75px"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Quality Food</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 md-3 mb-4">
+                    <div class="card " style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/cart-shopping-solid.svg " width="75px" height="75px"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Online-Order</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 md-3 mb-4">
+                    <div class="card " style="width: 18rem;">
+                        <img class="card-img-top " src="./assets/img/handshake-angle-solid.svg " width="75px"
+                            height="75px" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                24/7-Help
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- Menu----------------------------------------------------------------------------------------------------------- -->
+    <section id="menu">
+        <div class="container">
+            <h1 class="text-center my-4">Coffee Menu</h1>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/5681007_54438.jpg" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">A strong and concentrated coffee served in a small cup.</p>
+                            <p class="card-text">$2.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/5681007_54438.jpg" class="card-img-top" alt="Coffee 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Espresso mixed with steamed milk and topped with foam.</p>
+                            <p class="card-text">$3.49</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/5681007_54438.jpg" class="card-img-top" alt="Coffee 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Espresso mixed with steamed milk.</p>
+                            <p class="card-text">$3.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/5681007_54438.jpg" class="card-img-top" alt="Coffee 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Mocha</h5>
+                            <p class="card-text">Espresso with chocolate and steamed milk.</p>
+                            <p class="card-text">$4.29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/5681007_54438.jpg" class="card-img-top" alt="Coffee 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <p class="card-text">Diluted espresso with hot water.</p>
+                            <p class="card-text">$2.79</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/5681007_54438.jpg" class="card-img-top" alt="Coffee 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Macchiato</h5>
+                            <p class="card-text">Espresso "stained" with a dollop of frothy milk.</p>
+                            <p class="card-text">$3.09</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/5681007_54438.jpg" class="card-img-top" alt="Coffee 7">
+                        <div class="card-body">
+                            <h5 class="card-title">Iced Coffee</h5>
+                            <p class="card-text">Chilled coffee served with ice cubes.</p>
+                            <p class="card-text">$3.29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/5681007_54438.jpg" class="card-img-top" alt="Coffee 8">
+                        <div class="card-body">
+                            <h5 class="card-title">Caramel Macchiato</h5>
+                            <p class="card-text">Espresso with caramel syrup and steamed milk.</p>
+                            <p class="card-text">$4.49</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ourStaffs----------------------------------------------------------------------------------------------------------- -->
+    <section id="Our_Staff's">
+        <div class="container ">
+            <h1 class="text-center display-4">Our Staff</h1>
+            <div class="row ">
+                <!-- Staff Member 1 -->
+                <div class="col-md-3 mb-4">
+                    <div class="staff-card ">
+                        <img src="./assets/img/pexels-miquel-ferran-gomez-figueroa-3814446.jpg" width="200px"
+                            height="200px" alt="Staff Member 3" class="img-fluid rounded">
+                        <h3>John Doe</h3>
+                        <p>Position: Manager</p>
+                        <p>Email: john@example.com</p>
+                    </div>
+                </div>
+
+                <!-- Staff Member 2 -->
+                <div class="col-md-3 mb-4">
+                    <div class="staff-card">
+                        <img src="./assets/img/pexels-miquel-ferran-gomez-figueroa-3814446.jpg" width="200px"
+                            height="200px" alt="Staff Member 3" class="img-fluid rounded">
+                        <h3>Jane Smith</h3>
+                        <p>Position: Sales Representative</p>
+                        <p>Email: jane@example.com</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <section id="order">
+        <div class="container-fluid bg-dark p-5 " data-aos="fade-up" data-aos-duration="1000" id="container-fluid">
+            <div class="form">
+                <form>
+                    <h1 class="text-white display-2 text-center display-4">Place_Order:</h1>
+                    <div class="mb-3 mt-3">
+
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                    </div>
+                    <div class="mb-3">
+
+                        <input type="text" class="form-control" id="email" placeholder="Enter Mobile no"
+                            name="mobile no">
+                    </div>
+
+                    <div class="mb-3">
+
+                        <input type="date" class="form-control" id="date" name="date">
+                    </div>
+                    <label for="coffeeType">Select Coffee Type:</label>
+                    <select id="coffeeType" name="coffeeType">
+                        <option value="espresso">Espresso</option>
+                        <option value="latte">Latte</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="americano">Americano</option>
+                        <option value="macchiato">Macchiato</option>
+                    </select>
+
+
+
+                    <label for="size">Select Size:</label>
+                    <select id="size" name="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <footer class="bg-dark text-light">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Contact Us</h5>
+                        <address>
+                            <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Street</p>
+                            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                            <p><i class="fas fa-envelope"></i> info@coffeeday.com</p>
+                        </address>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Opening Hours</h5>
+                        <p>Monday - Friday: 7:00 AM - 8:00 PM</p>
+                        <p>Saturday - Sunday: 8:00 AM - 6:00 PM</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Follow Us</h5>
+                        <a href="#" class="text-light"><i class="fab fa-facebook-f fa-lg mx-2"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-twitter fa-lg mx-2"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-instagram fa-lg mx-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center py-2">
+                &copy; 2023 Coffee Day. All rights reserved.
+            </div>
+        </footer>
+
+    </footer>
+
+    <!-- bootstrap-script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
