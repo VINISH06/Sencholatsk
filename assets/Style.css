@@ -108,9 +108,15 @@ a {
     color: white !important;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 768px) {
     body {
         font-size: 16px;
+        width: 100%;
+    }
+
+    h1,
+    h2 {
+        fon-size: 14px;
     }
 
     #order {
@@ -123,10 +129,8 @@ a {
         width: 100%;
     }
 
-    header {
-        width: 100%;
 
-    }
+
 
     #services {
         margin-top: 50%;
@@ -144,7 +148,6 @@ a {
     #about {
         margin-top: -50%;
     }
-
 
 
 }
